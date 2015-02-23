@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    UINavigationController *navigationController;
+    UITabBarController *tabBarController;
+    UITableViewController *tableController;}
 
 @property (strong, nonatomic) UIWindow *window;
 

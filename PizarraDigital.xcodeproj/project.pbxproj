@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5092B7E51A72977E00D07860 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5092B7E41A72977E00D07860 /* MenuViewController.m */; };
+		509B771A1A751D930013BED6 /* pista_basquet2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 509B77181A751D930013BED6 /* pista_basquet2.gif */; };
+		509B771B1A751D930013BED6 /* pista_basquet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509B77191A751D930013BED6 /* pista_basquet.jpg */; };
+		509B771E1A751DF30013BED6 /* PizarraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 509B771D1A751DF30013BED6 /* PizarraViewController.m */; };
+		509B77201A751E990013BED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509B771F1A751E990013BED6 /* UIKit.framework */; };
+		509B77221A751EA70013BED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509B77211A751EA70013BED6 /* Foundation.framework */; };
+		509B77241A7520510013BED6 /* lapiz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509B77231A7520510013BED6 /* lapiz.jpg */; };
+		509B77261A7521450013BED6 /* goma_de_borrar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509B77251A7521450013BED6 /* goma_de_borrar.jpg */; };
+		509B77281A75248F0013BED6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509B77271A75248F0013BED6 /* CoreGraphics.framework */; };
 		50B94E871A643049001ABF4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B94E861A643049001ABF4E /* main.m */; };
 		50B94E8A1A643049001ABF4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B94E891A643049001ABF4E /* AppDelegate.m */; };
 		50B94E8D1A643049001ABF4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B94E8C1A643049001ABF4E /* ViewController.m */; };
@@ -14,6 +23,8 @@
 		50B94E921A643049001ABF4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B94E911A643049001ABF4E /* Images.xcassets */; };
 		50B94E951A643049001ABF4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B94E931A643049001ABF4E /* LaunchScreen.xib */; };
 		50B94EA11A643049001ABF4E /* PizarraDigitalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B94EA01A643049001ABF4E /* PizarraDigitalTests.m */; };
+		50B94EAB1A643434001ABF4E /* basquetbol.gif in Resources */ = {isa = PBXBuildFile; fileRef = 50B94EAA1A643434001ABF4E /* basquetbol.gif */; };
+		50B94EAE1A64366F001ABF4E /* RegistrarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B94EAD1A64366F001ABF4E /* RegistrarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5092B7E31A72977E00D07860 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		5092B7E41A72977E00D07860 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		509B77181A751D930013BED6 /* pista_basquet2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pista_basquet2.gif; sourceTree = "<group>"; };
+		509B77191A751D930013BED6 /* pista_basquet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pista_basquet.jpg; sourceTree = "<group>"; };
+		509B771C1A751DF30013BED6 /* PizarraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PizarraViewController.h; sourceTree = "<group>"; };
+		509B771D1A751DF30013BED6 /* PizarraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PizarraViewController.m; sourceTree = "<group>"; };
+		509B771F1A751E990013BED6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		509B77211A751EA70013BED6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		509B77231A7520510013BED6 /* lapiz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lapiz.jpg; sourceTree = "<group>"; };
+		509B77251A7521450013BED6 /* goma_de_borrar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goma_de_borrar.jpg; sourceTree = "<group>"; };
+		509B77271A75248F0013BED6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		50B94E811A643049001ABF4E /* PizarraDigital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizarraDigital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B94E851A643049001ABF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B94E861A643049001ABF4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +62,9 @@
 		50B94E9A1A643049001ABF4E /* PizarraDigitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizarraDigitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B94E9F1A643049001ABF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B94EA01A643049001ABF4E /* PizarraDigitalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PizarraDigitalTests.m; sourceTree = "<group>"; };
+		50B94EAA1A643434001ABF4E /* basquetbol.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = basquetbol.gif; sourceTree = "<group>"; };
+		50B94EAC1A64366F001ABF4E /* RegistrarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrarViewController.h; sourceTree = "<group>"; };
+		50B94EAD1A64366F001ABF4E /* RegistrarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509B77281A75248F0013BED6 /* CoreGraphics.framework in Frameworks */,
+				509B77221A751EA70013BED6 /* Foundation.framework in Frameworks */,
+				509B77201A751E990013BED6 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +88,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		509B77171A751D680013BED6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				50B94EAA1A643434001ABF4E /* basquetbol.gif */,
+				509B77251A7521450013BED6 /* goma_de_borrar.jpg */,
+				509B77231A7520510013BED6 /* lapiz.jpg */,
+				509B77181A751D930013BED6 /* pista_basquet2.gif */,
+				509B77191A751D930013BED6 /* pista_basquet.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		509B77291A75249A0013BED6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				509B771F1A751E990013BED6 /* UIKit.framework */,
+				509B77211A751EA70013BED6 /* Foundation.framework */,
+				509B77271A75248F0013BED6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		50B94E781A643049001ABF4E = {
 			isa = PBXGroup;
 			children = (
 				50B94E831A643049001ABF4E /* PizarraDigital */,
 				50B94E9D1A643049001ABF4E /* PizarraDigitalTests */,
 				50B94E821A643049001ABF4E /* Products */,
+				509B77291A75249A0013BED6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +132,18 @@
 		50B94E831A643049001ABF4E /* PizarraDigital */ = {
 			isa = PBXGroup;
 			children = (
+				509B77171A751D680013BED6 /* image */,
 				50B94E881A643049001ABF4E /* AppDelegate.h */,
 				50B94E891A643049001ABF4E /* AppDelegate.m */,
 				50B94E8B1A643049001ABF4E /* ViewController.h */,
+				50B94EAC1A64366F001ABF4E /* RegistrarViewController.h */,
+				50B94EAD1A64366F001ABF4E /* RegistrarViewController.m */,
 				50B94E8C1A643049001ABF4E /* ViewController.m */,
 				50B94E8E1A643049001ABF4E /* Main.storyboard */,
+				5092B7E31A72977E00D07860 /* MenuViewController.h */,
+				5092B7E41A72977E00D07860 /* MenuViewController.m */,
+				509B771C1A751DF30013BED6 /* PizarraViewController.h */,
+				509B771D1A751DF30013BED6 /* PizarraViewController.m */,
 				50B94E911A643049001ABF4E /* Images.xcassets */,
 				50B94E931A643049001ABF4E /* LaunchScreen.xib */,
 				50B94E841A643049001ABF4E /* Supporting Files */,
@@ -199,9 +257,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B94EAB1A643434001ABF4E /* basquetbol.gif in Resources */,
+				509B771A1A751D930013BED6 /* pista_basquet2.gif in Resources */,
 				50B94E901A643049001ABF4E /* Main.storyboard in Resources */,
+				509B77241A7520510013BED6 /* lapiz.jpg in Resources */,
+				509B77261A7521450013BED6 /* goma_de_borrar.jpg in Resources */,
 				50B94E951A643049001ABF4E /* LaunchScreen.xib in Resources */,
 				50B94E921A643049001ABF4E /* Images.xcassets in Resources */,
+				509B771B1A751D930013BED6 /* pista_basquet.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +284,10 @@
 			files = (
 				50B94E8D1A643049001ABF4E /* ViewController.m in Sources */,
 				50B94E8A1A643049001ABF4E /* AppDelegate.m in Sources */,
+				50B94EAE1A64366F001ABF4E /* RegistrarViewController.m in Sources */,
 				50B94E871A643049001ABF4E /* main.m in Sources */,
+				509B771E1A751DF30013BED6 /* PizarraViewController.m in Sources */,
+				5092B7E51A72977E00D07860 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,8 +412,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PizarraDigital/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -356,8 +424,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PizarraDigital/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -414,6 +484,7 @@
 				50B94EA61A643049001ABF4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50B94EA71A643049001ABF4E /* Build configuration list for PBXNativeTarget "PizarraDigitalTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +493,7 @@
 				50B94EA91A643049001ABF4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

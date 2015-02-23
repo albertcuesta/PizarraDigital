@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "RegistrarViewController.h"
+#import "MenuViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    navigationController = [[UINavigationController alloc] init];
+    tabBarController     = [[UITabBarController alloc] init];
+    tableController =[[UITableViewController alloc]init];
+    
+  /*
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowColor = [UIColor whiteColor];
+    shadow.shadowOffset = CGSizeMake(0, 1);
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor colorWithRed:175.0/255.0 green:0/255.0 blue:81.0/255.0 alpha:1.0], NSForegroundColorAttributeName,
+                                                           shadow, NSShadowAttributeName,
+                                                           [UIFont fontWithName:@"Open Sans" size:18.0], NSFontAttributeName, nil]];
+    //color texto navigationbar
+  [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:1.0]];
+    //color de la navigationbar
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:2555.0/255.0 green:116/255.0 blue:0/255.0 alpha:1.0]];
+    //backgroundcolor de las views de la app
+   // _window.backgroundColor = [UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:1.0];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    */
     return YES;
 }
 
